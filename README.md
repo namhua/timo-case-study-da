@@ -1,6 +1,6 @@
 # Timo Digital Bank Case Study - Data Analyst
-Author: Hua Dai Nam
-Published: April 17, 2024
+- Author: Hua Dai Nam
+- Published: April 17, 2024
 
 This is an initial report to management based on an exploratory data analysis (EDA) of the contained information.
 
