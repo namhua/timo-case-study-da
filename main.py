@@ -95,21 +95,6 @@ Initially, ensure the `date_of_birth` column is converted to the *date* data typ
         print(output)
     st.text(output)
 
-    st.write("Exclude date and datetime columns (\"date_of_birth\", \"txn_ts\") before describing:")
-    with st.echo():
-        included_cols = df.columns.difference(["date_of_birth", "txn_ts"])
-
-    st.write("Describe the dataset:")
-    with st.echo():
-        output = df[included_cols].describe(include=["object"])
-        print(output)
-    st.dataframe(output)
-
-    with st.echo():
-        output = df[included_cols].describe(include=["number"])
-        print(output)
-    st.dataframe(output)
-
     st.markdown("## Explain \"txn_type_code\"")
     st.write(
         """
