@@ -215,7 +215,7 @@ The txn_type_code `5` corresponds to the `Phone Top-Up` type. This is because th
 
     st.write("type_6:")
     with st.echo():
-        type_6_result, type_6_output = inspect_txn_type_code(df, "5")
+        type_6_result, type_6_output = inspect_txn_type_code(df, "6")
         print(type_6_output)
     st.text(type_6_output)
     st.dataframe(type_6_result.head(5))
